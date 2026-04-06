@@ -1,6 +1,3 @@
-// useSync.js — loads and saves all app state to Supabase
-// All data is stored in a single "app_state" table as JSON blobs
-// keyed by name: "compounds", "schedule", "inventory"
 import { useState, useEffect, useRef } from 'react'
 import { supabase } from './supabase'
 
